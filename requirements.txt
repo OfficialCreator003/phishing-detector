@@ -1,0 +1,31 @@
+# PhishGuard — Phishing Website Detector
+
+# Core Technologies
+HTML5
+CSS3
+JavaScript (Vanilla JS)
+
+# External Resources (CDN)
+Google Fonts:
+- Share Tech Mono
+- Syne
+- DM Mono
+
+# No Dependencies
+No npm or pip packages required
+
+# Optional (Local Server)
+Python 3.x → python3 -m http.server
+Node.js (serve) → npm install -g serve
+
+# Optional Backend (Future Use)
+flask
+requests
+python-whois
+dnspython
+tldextract
+virustotal-python
+
+# System Requirements
+Modern Browser (Chrome, Edge, Firefox)
+Internet (for fonts)
