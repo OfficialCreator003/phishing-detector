@@ -1,6 +1,5 @@
 # phishing-detector
 PhishGuard is a browser-based phishing detection tool built with HTML, CSS, and JavaScript that evaluates URLs using rule-based analysis to identify potential security threats.
-# 🛡️ PhishGuard — Phishing Website Detector
 
 > A professional-grade, browser-based phishing URL detection tool built with pure HTML, CSS, and JavaScript — no backend required.
 
@@ -15,25 +14,6 @@ This project demonstrates:
 - Multi-factor threat scoring
 - Real-time browser-style security warnings
 - Blacklist cross-referencing
-
----
-
-## ✨ Features
-
-| Feature | Description |
-|---|---|
-| 🔐 **HTTPS Check** | Flags sites without SSL/TLS encryption |
-| 🚫 **Blacklist Engine** | Cross-references 500+ known phishing domains |
-| 🎯 **Keyword Analysis** | Detects phishing trigger words in the URL |
-| 📏 **Domain Length Check** | Flags abnormally long domain names |
-| 🌐 **TLD Reputation** | Identifies high-risk TLDs (.tk, .ml, .xyz, etc.) |
-| 🔤 **Typosquatting Detection** | Catches brand impersonation via Levenshtein distance |
-| 🕸️ **Subdomain Depth** | Detects excessive subdomain nesting |
-| 🖥️ **Browser-style Warning** | Renders a Chrome/Firefox-like danger page for critical threats |
-| 📊 **Threat Score (0–100)** | Quantified risk score with animated meter |
-| 🕓 **Scan History** | Tracks last 10 scanned URLs with verdict |
-| ⚡ **Scanning Animation** | Step-by-step terminal-style scan log |
-| 📱 **Fully Responsive** | Works on mobile, tablet, and desktop |
 
 ---
 
@@ -81,80 +61,6 @@ Uses **Levenshtein distance algorithm** to detect 1-character differences from t
 - `paypa1.com` → PayPal
 - `arnazon.com` → Amazon
 - `micros0ft.com` → Microsoft
-
----
-
-## 📁 Project Structure
-
-```
-phishguard/
-│
-├── phishing-detector.html    # Main application (self-contained)
-├── README.md                 # Project documentation
-└── requirements.txt          # Dependencies (all CDN-based)
-```
-
-> Since this is a pure frontend project, all logic lives in a single HTML file. No build tools or package managers are needed.
-
----
-
-## 🚀 Usage
-
-### Option 1 — Open Directly (Recommended)
-```bash
-# Just open in any modern browser
-open phishing-detector.html
-# or
-double-click phishing-detector.html
-```
-
-### Option 2 — Serve Locally
-If you want to run it on a local server:
-
-```bash
-# Python 3
-python -m http.server 8080
-
-# Python 2
-python -m SimpleHTTPServer 8080
-
-# Node.js (npx)
-npx serve .
-
-# Then open:
-# http://localhost:8080/phishing-detector.html
-```
-
-### Option 3 — VS Code Live Server
-1. Install the **Live Server** extension in VS Code
-2. Right-click `phishing-detector.html`
-3. Select **"Open with Live Server"**
-
----
-
-## 🧪 Example URLs to Test
-
-| URL | Expected Result |
-|---|---|
-| `https://www.google.com` | ✅ SAFE |
-| `https://github.com` | ✅ SAFE |
-| `http://secure-login-paypal-verify.xyz/account` | ⚠️ SUSPICIOUS / 🚨 DANGEROUS |
-| `http://bankofamerica-login-secure.tk/verify-now` | 🚨 DANGEROUS |
-| `http://paypa1.com/signin` | 🚨 DANGEROUS (typosquat) |
-| `http://192.168.1.1/login` | 🚨 DANGEROUS (bare IP) |
-| `http://amazon.secure.login.verify.xyz/account` | 🚨 DANGEROUS |
-
----
-
-## 🖥️ Browser Compatibility
-
-| Browser | Supported |
-|---|---|
-| Chrome 90+ | ✅ |
-| Firefox 88+ | ✅ |
-| Edge 90+ | ✅ |
-| Safari 14+ | ✅ |
-| Opera 76+ | ✅ |
 
 ---
 
