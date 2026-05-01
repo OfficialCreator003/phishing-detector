@@ -2,27 +2,7 @@
 PhishGuard is a browser-based phishing detection tool built with HTML, CSS, and JavaScript that evaluates URLs using rule-based analysis to identify potential security threats.
 # 🛡️ PhishGuard — Phishing Website Detector
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![Tech](https://img.shields.io/badge/tech-HTML%20%7C%20CSS%20%7C%20JavaScript-00e676)
-![License](https://img.shields.io/badge/license-MIT-orange)
-![Purpose](https://img.shields.io/badge/purpose-Ethical%20Hacking-red)
-
 > A professional-grade, browser-based phishing URL detection tool built with pure HTML, CSS, and JavaScript — no backend required.
-
----
-
-## 📌 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [How It Works](#how-it-works)
-- [Detection Engine](#detection-engine)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Example URLs to Test](#example-urls-to-test)
-- [Screenshots](#screenshots)
-- [Ethical Disclaimer](#ethical-disclaimer)
-- [Author](#author)
 
 ---
 
